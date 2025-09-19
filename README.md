@@ -54,39 +54,6 @@ A comprehensive, modern React.js application for managing a book library with fu
 - **Axios** - HTTP client with interceptors
 - **Mock Data** - 25 diverse books across multiple genres
 
-## 📁 Project Structure
-
-```
-src/
-├── components/          # Reusable UI components
-│   ├── common/         # Generic components (Loader, EmptyState)
-│   ├── layout/         # Layout components (Header, Sidebar, MainLayout)
-│   ├── BookFormModal/  # Add/Edit book modal
-│   └── DeleteModal/    # Delete confirmation modal
-├── pages/              # Route-level components
-│   ├── Dashboard/      # Main dashboard with table/grid views
-│   └── NotFound/       # 404 page
-├── hooks/              # Custom React hooks
-│   ├── useBooks.js     # React Query hooks for book operations
-│   ├── useDebounce.js  # Debouncing utilities
-│   ├── usePagination.js # Pagination logic
-│   └── useLocalStorage.js # Local storage management
-├── services/           # API service layer
-│   ├── api.js         # Axios configuration
-│   └── bookService.js # Book-related API calls
-├── context/            # Context providers
-│   ├── BookContext.jsx # Book-related state
-│   ├── UIContext.jsx   # UI state management
-│   └── AppProvider.jsx # Root provider setup
-├── utils/              # Utility functions
-│   ├── constants.js    # Application constants
-│   ├── helpers.js      # Helper functions
-│   └── validations.js  # Validation rules
-├── styles/             # Global styles
-│   ├── globals.css     # Global CSS with Tailwind
-│   └── antd-overrides.css # Ant Design customizations
-└── data/               # Mock data
-    └── db.json         # JSON Server database
 ```
 
 ## 🎨 Design Highlights
