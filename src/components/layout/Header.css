@@ -1,0 +1,12 @@
+/* Header responsive styles */
+@media screen and (max-width: 576px) {
+  .header-title h3.ant-typography {
+    font-size: 18px !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header-title h3.ant-typography {
+    font-size: 16px !important;
+  }
+}

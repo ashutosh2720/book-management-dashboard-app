@@ -1,5 +1,6 @@
 import React from "react";
 import { Layout, Button, Space, Tooltip, Switch, Typography } from "antd";
+import "./Header.css";
 import {
   MenuOutlined,
   AppstoreOutlined,
@@ -40,9 +41,11 @@ const Header = ({
               style={{ marginRight: 16 }}
             />
           )}
-          <Title level={3} style={{ margin: 0 }}>
-            {getPageTitle(currentPage)}
-          </Title>
+          <div className="header-title">
+            <Title level={3} style={{ margin: 0 }}>
+              {getPageTitle(currentPage)}
+            </Title>
+          </div>
         </div>
         <Space>
           <Tooltip
