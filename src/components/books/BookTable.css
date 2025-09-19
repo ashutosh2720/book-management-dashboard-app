@@ -1,7 +1,7 @@
 /* Table pagination styles */
 .book-table .ant-pagination {
   margin: 16px 0;
-  padding-left: 16px;
+  padding: 16px;
 }
 
 /* Ensure table overflow is handled properly */
@@ -13,5 +13,6 @@
 @media screen and (max-width: 768px) {
   .book-table .ant-pagination {
     padding-left: 8px;
+    padding-right: 8px;
   }
 }
