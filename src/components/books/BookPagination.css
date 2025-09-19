@@ -1,0 +1,42 @@
+/* Responsive styles for pagination */
+@media screen and (max-width: 576px) {
+  .pagination-text {
+    display: none;
+  }
+  
+  .pagination-info {
+    font-size: 0.9rem;
+  }
+
+  .pagination-divider {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pagination-info {
+    width: 100%;
+    margin-top: 8px;
+  }
+}
+
+/* Dark mode support */
+[data-theme="dark"] .pagination-select,
+[data-theme="dark"] .pagination-button {
+  background: #1f1f1f;
+  border-color: #434343;
+  color: #fff;
+}
+
+[data-theme="dark"] .pagination-button:disabled {
+  background: #141414;
+  color: #666;
+}
+
+[data-theme="dark"] .pagination-info {
+  color: #999;
+}
+
+[data-theme="dark"] .pagination-divider {
+  background: #434343;
+}

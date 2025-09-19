@@ -1,5 +1,6 @@
 import React from "react";
 import { Table, Space, Tooltip, Button, Popconfirm, Avatar, Tag, Badge, Typography } from "antd";
+import "./BookTable.css";
 import {
   BookOutlined,
   UserOutlined,
@@ -162,6 +163,7 @@ const BookTable = ({
 
   return (
     <Table
+      className="book-table"
       columns={columns}
       dataSource={books}
       rowKey="id"
