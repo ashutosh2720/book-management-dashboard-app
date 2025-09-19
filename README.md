@@ -54,8 +54,6 @@ A comprehensive, modern React.js application for managing a book library with fu
 - **Axios** - HTTP client with interceptors
 - **Mock Data** - 25 diverse books across multiple genres
 
-```
-
 ## 🎨 Design Highlights
 
 ### Visual Design
